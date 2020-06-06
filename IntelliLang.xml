@@ -1,0 +1,36 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JAVA" injector-id="xml">
+      <display-name>RelativeLayout/@background</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("background")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().equalTo("RelativeLayout")))]]></place>
+    </injection>
+    <injection language="Dart" injector-id="xml">
+      <display-name>action/@destination</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("destination")).withNamespace(string().equalTo("http://schemas.android.com/apk/res-auto")).withParent(xmlTag().withLocalName(string().equalTo("action")))]]></place>
+    </injection>
+    <injection language="GitIgnore" injector-id="xml">
+      <display-name>activity/@name</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("name")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().equalTo("activity")))]]></place>
+    </injection>
+    <injection language="JAVA" injector-id="xml">
+      <display-name>android.support.v4.widget.DrawerLayout</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().matches("android.support.v4.widget.DrawerLayout"))]]></place>
+    </injection>
+    <injection language="Dart" injector-id="xml">
+      <display-name>fragment/@label</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("label")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().equalTo("fragment")))]]></place>
+    </injection>
+    <injection language="JAVA" injector-id="xml">
+      <display-name>group</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("group"))]]></place>
+    </injection>
+    <injection language="Dart" injector-id="xml">
+      <display-name>item/@icon</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("icon")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().equalTo("item")))]]></place>
+    </injection>
+    <injection language="JAVA" injector-id="xml">
+      <display-name>navigation/@startDestination</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("startDestination")).withNamespace(string().equalTo("http://schemas.android.com/apk/res-auto")).withParent(xmlTag().withLocalName(string().equalTo("navigation")))]]></place>
+    </injection>
+  </component>
+</application>

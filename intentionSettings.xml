@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Java/Declaration/Split declaration" />
+    <ignoreAction name="Other/Flip ','" />
+    <ignoreAction name="Android/Add library dependency" />
+  </component>
+</application>
